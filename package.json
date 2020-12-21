@@ -1,0 +1,31 @@
+{
+  "name": "create-app",
+  "version": "1.8.2",
+  "description": "Small cli to create nuxt app",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "index.js",
+  "bin": {
+    "create-app": "./index.js"
+  },
+  "scripts": {
+    "postinstall": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igorjacauna/template-apps"
+  },
+  "keywords": [
+    "person",
+    "contact"
+  ],
+  "author": "Igor Jacaúna",
+  "license": "MIT",
+  "dependencies": {
+    "cac": "^6.7.1",
+    "sao": "^1.7.1",
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.2"
+  }
+}
